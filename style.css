@@ -1,15 +1,38 @@
-/* Add a gray background color and some padding to the footer */
+body {
+  padding-top: 60px;
+  background-color: #303030;
+  color: #eeeeee;
+}
+
+.jumbotron {
+  background-color: black;
+  color: #f2f2f2;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
 footer {
-  background-color: #f2f2f2;
+  background-color: #101010;
+  color: #e2e2e2;
   padding: 25px;
 }
 
-body {
-  padding-top: 60px;
+.navbar {
+  background-color: #101010;
+  color: #e2e2e2;
 }
 
-/* @media (max-width: 979px) {
-  body {
-    padding-top: 0px;
-  }
-} */
+.myCollapseTitle:link {
+  color: #e2e2e2;
+  text-decoration: none;
+}
+.myCollapseTitle:hover {
+  color: #c2c2c2;
+  text-decoration: solid;
+}
+
+.jumbotron .collapse {
+  color: #b2b2b2;
+}
