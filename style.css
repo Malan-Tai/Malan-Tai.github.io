@@ -30,7 +30,7 @@ footer {
 }
 .myCollapseTitle:hover {
   color: #c2c2c2;
-  text-decoration: solid;
+  background-color: #303030;
 }
 
 .jumbotron .collapse {
