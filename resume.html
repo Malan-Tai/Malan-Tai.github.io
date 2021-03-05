@@ -42,38 +42,43 @@
   </nav>
 
   <div class="jumbotron">
-    <h1 class="text-center">My Resume</h1>
+    <h1 class="text-center">My Resume</h1><br><br>
 
     <div class="row">
       <div class="col-sm-1"></div>
       <div class="col-sm-10">
-        <h2><a class="myCollapseTitle" href="#education" data-toggle="collapse">Education</a></h2>
-
-        <div id="education" class="collapse in">
-          <p class="text-justify">Lorem ipsum dolor text....</p>
-        </div><br><br>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <h2><a class="myCollapseTitle" href="#skills" data-toggle="collapse">Skills</a></h2>
-
-        <div id="skills" class="collapse">
-          <p class="text-justify">Lorem ipsum dolor text....</p>
-        </div><br><br>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <h2><a class="myCollapseTitle" href="#experiences" data-toggle="collapse">Experiences</a></h2>
-
-        <div id="experiences" class="collapse">
-          <p class="text-justify">Lorem ipsum dolor text....</p>
-        </div><br><br>
+        <div class="panel-group" role="tablist" aria-multiselectable="true">
+          <div class="panel">
+            <div class="panel-heading active" role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h3>Education</h3>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+                <p>Pouet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="panel-heading collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h3>Skills</h3>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                <p>Pouet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="panel-heading collapsed" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h3>Collapsible Group Item #3</h3>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                <p>Experiences</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

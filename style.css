@@ -24,15 +24,19 @@ footer {
   color: #e2e2e2;
 }
 
-.myCollapseTitle:link {
-  color: #e2e2e2;
-  text-decoration: none;
-}
-.myCollapseTitle:hover {
-  color: #c2c2c2;
-  background-color: #303030;
+.panel {
+  background-color: #202020;
 }
 
-.jumbotron .collapse {
-  color: #b2b2b2;
+.jumbotron .panel {
+  background-color: #202020;
+}
+
+.jumbotron .panel-heading {
+  background-color: #171717;
+}
+
+.jumbotron .panel-heading:hover {
+  color: white;
+  background-color: #101010;
 }
