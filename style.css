@@ -26,6 +26,7 @@ footer {
 
 .panel {
   background-color: #202020;
+  border-color: #202020;
 }
 
 .jumbotron .panel {
@@ -56,4 +57,14 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.panel a p {
+  color: #f2f2f2;
+}
+
+.panel a:hover {
+  color: white;
+  text-decoration-color: white;
+  -moz-text-decoration-color: white;
 }
