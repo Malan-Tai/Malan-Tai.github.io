@@ -68,3 +68,42 @@ footer {
   text-decoration-color: white;
   -moz-text-decoration-color: white;
 }
+
+.itch {
+  background-color: #fa5c5c;
+}
+
+.itch:hover {
+  background-color: #af3e3e;
+}
+
+.itch a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.gitlab {
+  background-color: #fc6d27;
+}
+
+.gitlab:hover {
+  background-color: #c7551c;
+}
+
+.gitlab a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.github {
+  background-color: #4183c4;
+}
+
+.github:hover {
+  background-color: #2b5681;
+}
+
+.github a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
