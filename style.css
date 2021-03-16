@@ -19,6 +19,14 @@ footer {
   padding: 25px;
 }
 
+footer a {
+  color: #e2e2e2;
+}
+
+footer a:hover {
+  color: white;
+}
+
 .navbar {
   background-color: #101010;
   color: #e2e2e2;
@@ -31,6 +39,15 @@ footer {
 
 .jumbotron .panel {
   background-color: #202020;
+}
+
+.jumbotron .collapse p {
+  color: #aaaaaa;
+}
+
+.jumbotron .collapse .col-sm-1 img {
+  width: max-content;
+  height: auto;
 }
 
 .jumbotron .panel-heading {
@@ -59,7 +76,7 @@ footer {
   height: 100%;
 }
 
-.panel a p {
+.panel a {
   color: #f2f2f2;
 }
 

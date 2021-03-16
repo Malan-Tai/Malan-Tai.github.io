@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/62add12b91.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -45,42 +46,140 @@
   <div class="jumbotron">
     <h1 class="text-center">My Resume</h1><br><br>
 
-    <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <div class="panel-group" role="tablist" aria-multiselectable="true">
-          <div class="panel">
-            <div class="panel-heading active" role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <h3>Education</h3>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-              <div class="panel-body">
-                <p>Pouet.</p>
-              </div>
-            </div>
-          </div>
-          <div class="panel">
-            <div class="panel-heading collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <h3>Skills</h3>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-              <div class="panel-body">
-                <p>Pouet.</p>
-              </div>
-            </div>
-          </div>
-          <div class="panel">
-            <div class="panel-heading collapsed" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <h3>Collapsible Group Item #3</h3>
-            </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-              <div class="panel-body">
-                <p>Experiences</p>
-              </div>
-            </div>
-          </div>
+    <h1 class="text-center" role="button" data-toggle="collapse" href="#collapseEducation" aria-expanded="true" aria-controls="collapseEducation">
+      Education
+    </h1><br>
+
+    <div id="collapseEducation" class="collapse in">
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1">
+          <img src="images/TSP.png" alt="logo Télécom Sudparis" class="img-responsive" style="background-color: white;">
         </div>
-      </div>
+        <div class="col-sm-10">
+          <h2>2019-2022 : Télécom Sudparis</h2>
+          <p>IT engineering school</p>
+        </div>
+      </div><br>
+
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1">
+          <img src="images/corneille.jpg" alt="logo Lycée Corneille" class="img-responsive">
+        </div>
+        <div class="col-sm-10">
+          <h2>2017-2019 : Lycée Corneille de Rouen</h2>
+          <p>Math prep school</p>
+        </div>
+      </div><br>
+
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1">
+          <i class="fas fa-graduation-cap fa-5x"></i>
+        </div>
+        <div class="col-sm-10">
+          <h2>2017 : Scientific Baccalauréat</h2>
+          <p>With honors : Very Good, European <i><small>(additional classes taken in english)</small></i></p>
+        </div>
+      </div><br>
+    </div><br><br>
+
+    <h1 class="text-center" role="button" data-toggle="collapse" href="#collapseSkills" aria-expanded="true" aria-controls="collapseSkills">
+      Skills
+    </h1><br>
+
+    <div id="collapseSkills" class="collapse">
+      <h2 class="text-center">Programming</h2><br>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-1">
+          <img class="img-responsive" src="images/php.png" alt="php">
+          <h3>PHP</h3>
+        </div>
+        <div class="col-sm-1">
+          <img class="img-responsive" src="images/pyhton.svg" alt="python">
+          <h3>Python</h3>
+        </div>
+        <div class="col-sm-1">
+          <img class="img-responsive" src="images/c.png" alt="c">
+          <h3>C</h3>
+        </div>
+        <div class="col-sm-1">
+          <img class="img-responsive" src="images/cpp.svg" alt="c++">
+          <h3>C++</h3>
+        </div>
+        <div class="col-sm-1">
+          <img class="img-responsive" src="images/csharp.png" alt="c#">
+          <h3>C#</h3>
+        </div>
+        <div class="col-sm-1">
+          <img class="img-responsive" src="images/html.png" alt="html">
+          <h3>HTML</h3>
+        </div>
+        <div class="col-sm-1">
+          <img class="img-responsive" src="images/css.png" alt="css">
+          <h3>CSS</h3>
+        </div>
+        <div class="col-sm-1">
+          <img class="img-responsive" src="images/java.png" alt="java">
+          <h3>Java</h3>
+        </div>
+      </div><br>
+
+      <h2 class="text-center">Game Development</h2><br>
+      <div class="row text-center">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2">
+          <img class="img-responsive center-block d-block mx-auto" src="images/sfml.svg" alt="sfml">
+          <h3>SFML for C++</h3>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-responsive" src="images/unity.png" alt="unity">
+          <h3>Unity</h3>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-responsive" src="images/unreal.png" alt="unreal">
+          <h3>Unreal Engine</h3>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-responsive" src="images/monogame.png" alt="monogame">
+          <h3>Monogame</h3>
+        </div>
+      </div><br>
+
+      <h2 class="text-center">Digital Art (2D & 3D)</h2><br>
+      <div class="row"></div><br>
+
+      <h2 class="text-center">Languages</h2><br>
+      <div class="row text-center">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-2">
+          <img class="img-responsive" src="images/french.svg" alt="french">
+          <h3>French</h3>
+          <p>Native</p>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-responsive" src="images/english.svg" alt="english"><br><br>
+          <h3>English</h3>
+          <p>Fluent</p>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-responsive" src="images/japanese.svg" alt="japanese">
+          <h3>Japanese</h3>
+          <p>Beginner</p>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-responsive" src="images/spanish.svg" alt="spanish">
+          <h3>Spanish</h3>
+          <p>Beginner</p>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-responsive" src="images/arabic.svg" alt="arabic">
+          <h3>Arabic</h3>
+          <p>Beginner</p>
+        </div>
+      </div><br>
     </div>
   </div>
 
