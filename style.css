@@ -6,7 +6,11 @@ body {
 
 .jumbotron {
   background-color: black;
-  color: #f2f2f2;
+  color: #cccccc;
+}
+
+.jumbotron a {
+  color:#f3f3f3;
 }
 
 .carousel-inner img {

@@ -21,7 +21,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Portfolio</a>
+        <a class="navbar-brand" href="index.html">Home</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
@@ -43,73 +43,75 @@
   </nav>
 
   <div class="jumbotron">
-    <div class="container text-center">
-      <h1>My Portfolio</h1>
+    <div class="container text-justify">
+      <h1 class="text-center">Game Designer & Programmer</h1><br>
       <p>
-        While I am currently in an engineering school, I wish to work in the video game industry.
-        I have therefore participated in numerous game projects, whether it be via game jams, school projects, or on my free time.
+        My name is <strong>Erwan Castioni</strong>, I am a French student in second year of the engineering school <strong>Télécom SudParis</strong>,
+        within the <strong>Video Game Development Major</strong>. While my studies have been mainly focused on exact and formal sciences such as maths or physics,
+        I have always been into creation : I began as a child with drawings and construction games, then started creating levels in video games level editors
+        such as Portal 2's, and finally discovered video game development, which I have wanted to do as a job ever since.
+      </p>
+      <p>
+        Because of my studies, I am most proficient as a programmer in a multitude of languages, but I also have several experiences as a game designer,
+        thanks to <strong><a href="games/jams.html">game jams</a></strong>, <strong><a href="games/personal.html">personal projects</a></strong> on my free time,
+        <strong><a href="games/pro.html">internships, and school projects</a></strong> I turned into game projects. I also have
+        <strong><a href="other/drawings.html">art skills</a></strong>, although I haven't spent as much time training them as my programming or design skills.
       </p>
     </div>
   </div>
 
   <h2 class="text-center">Featured Games</h2><br>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+          </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img class="img-responsive" src="https://placehold.it/1600x400?text=IMAGE" alt="Chania">
-        <div class="carousel-caption">
-          <h3>Los Angeles</h3>
-          <p>LA is always so much fun!</p>
-        </div>
-      </div>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="carousel-caption" style="color: black;">
+                <h3>Romanizer</h3>
+                <p>Grand Prix of the Scientific Game Jam 2021</p>
+              </div>
+              <a href="games/jams/romanizer.html">
+                <img class="img-responsive" src="games/jams/images/romanizer_screen1.png" alt="Chania">
+              </a>
+            </div>
 
-      <div class="item">
-        <img class="img-responsive" src="https://placehold.it/2500x400?text=WIDE" alt="Chicago">
-        <div class="carousel-caption">
-          <h3>Chicago</h3>
-          <p>Thank you, Chicago!</p>
-        </div>
-      </div>
+            <div class="item">
+              <div class="carousel-caption" style="text-align: left;">
+                <h3>Somnium</h3>
+                <p>Best Experience award of Unijam 2019</p>
+              </div>
+              <a href="games/jams/somnium.html">
+                <img class="img-responsive" src="games/jams/images/somnium.png" alt="Chania">
+              </a>
+            </div>
+          </div>
 
-      <div class="item">
-        <img class="img-responsive" src="https://placehold.it/1600x200?text=LONG" alt="New York">
-        <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>We love the Big Apple!</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img class="img-responsive" src="https://placehold.it/1600x400?text=IMAGE" alt="Chania">
-        <div class="carousel-caption">
-          <h3>Pouet</h3>
-          <p>LA is always so much fun!</p>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div><br><br>
+  </div>
+  <br><br>
 
   <div class="container-fluid bg-3 text-center myGallery">
-    <h3>Some of my Work</h3><br>
+    <h2>Some of my Work</h2><br>
     <div class="row">
       <div class="col-sm-3">
         <div class="panel">
@@ -117,14 +119,6 @@
             <h2 class="panel-heading">Cassiopée : Unreal Project</h2>
             <a href="games/pro/PUR.html">
               <img src="games/pro/images/PUR.png" class="img-responsive panel-body" style="width:100%" alt="Image">
-            </a>
-          </div>
-        </div>
-        <div class="panel">
-          <div class="panel-body">
-            <h2 class="panel-heading">Dementia I</h2>
-            <a href="games/personal/dementia_v1.html">
-              <img src="games/personal/images/dementia_v1.png" class="img-responsive panel-body" style="width:100%" alt="Image">
             </a>
           </div>
         </div>
@@ -151,6 +145,14 @@
             <h2 class="panel-heading">FREZ</h2>
             <a href="games/pro/frez.html">
               <img src="games/pro/images/FREZ.png" class="img-responsive panel-body" style="width:100%" alt="Image">
+            </a>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-body">
+            <h2 class="panel-heading">Dementia I</h2>
+            <a href="games/personal/dementia_v1.html">
+              <img src="games/personal/images/dementia_v1.png" class="img-responsive panel-body" style="width:100%" alt="Image">
             </a>
           </div>
         </div>
