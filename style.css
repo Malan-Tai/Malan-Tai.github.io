@@ -96,9 +96,6 @@ footer a:hover {
 
 .itch:hover {
   background-color: #af3e3e;
-}
-
-.itch a {
   color: #f2f2f2;
   text-decoration: none;
 }
@@ -109,9 +106,6 @@ footer a:hover {
 
 .gitlab:hover {
   background-color: #c7551c;
-}
-
-.gitlab a {
   color: #f2f2f2;
   text-decoration: none;
 }
@@ -122,9 +116,6 @@ footer a:hover {
 
 .github:hover {
   background-color: #2b5681;
-}
-
-.github a {
   color: #f2f2f2;
   text-decoration: none;
 }
